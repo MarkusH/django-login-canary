@@ -1,0 +1,14 @@
+.*
+*.pyc
+*.egg-info/
+coverage.xml
+build/
+dist/
+docs/build/
+
+example/*.db
+
+!.bumpversion.cfg
+!.coveragerc
+!.gitignore
+!.travis.yml
