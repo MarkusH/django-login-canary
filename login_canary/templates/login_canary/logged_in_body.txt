@@ -1,0 +1,8 @@
+{% load i18n %}{% now "DATETIME_FORMAT" as datetime %}{% blocktrans with user_agent=request.META.HTTP_USER_AGENT remote_addr=request.META.REMOTE_ADDR %}Dear {{ user }},
+
+On {{ datetime }} somebody successfully logged in to your account on {{ service_name }}.
+
+User agent: {{ user_agent }}
+IP-Address: {{ remote_addr }}
+
+Kind regards.{% endblocktrans %}

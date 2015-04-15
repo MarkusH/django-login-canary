@@ -1,0 +1,5 @@
+{% load i18n %}{% now "DATETIME_FORMAT" as datetime %}{% blocktrans %}Dear {{ user }},
+
+On {{ datetime }} somebody tried to login to your account on {{ service_name }} but provided invalid credentials.
+
+Kind regards.{% endblocktrans %}

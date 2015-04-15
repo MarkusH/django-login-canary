@@ -1,0 +1,73 @@
+# django-login-canary
+# Copyright (C) 2015 Markus Holtermann
+# This file is distributed under the same license as the django-login-canary package.
+# Markus Holtermann <info@markusholtermann.eu>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-16 02:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:10
+msgid "Login Canary"
+msgstr "Login-Canary"
+
+#: templates/login_canary/logged_in_body.txt:1
+#, python-format
+msgid ""
+"Dear %(user)s,\n"
+"\n"
+"On %(datetime)s somebody successfully logged in to your account on "
+"%(service_name)s.\n"
+"\n"
+"User agent: %(user_agent)s\n"
+"IP-Address: %(remote_addr)s\n"
+"\n"
+"Kind regards."
+msgstr ""
+"Hallo %(user)s,\n"
+"\n"
+"Am %(datetime)s hat sich jemand erfolgreich in dein Konto auf "
+"%(service_name)s eingeloggt.\n"
+"\n"
+"User agent: %(user_agent)s\n"
+"IP-Adresse: %(remote_addr)s\n"
+"\n"
+"Mit freundlichen Grüßen"
+
+#: templates/login_canary/logged_in_subject.txt:1
+#, python-format
+msgid "Successful login on %(service_name)s"
+msgstr "Erfolgreicher Login auf %(service_name)s"
+
+#: templates/login_canary/login_failed_body.txt:1
+#, fuzzy, python-format
+msgid ""
+"Dear %(user)s,\n"
+"\n"
+"On %(datetime)s somebody tried to login to your account on %(service_name)s "
+"but provided invalid credentials.\n"
+"\n"
+"Kind regards."
+msgstr ""
+"Hallo %(user)s,\n"
+"\n"
+"Am %(datetime)s hat jemand erfolglos versucht sich in dein Konto auf "
+"einzuloggen.\n"
+"\n"
+"Mit freundlichen Grüßen"
+
+#: templates/login_canary/login_failed_subject.txt:1
+#, fuzzy, python-format
+msgid "Failed login attempt on %(service_name)s"
+msgstr "Fehlgeschlagener Login auf %(service_name)s"

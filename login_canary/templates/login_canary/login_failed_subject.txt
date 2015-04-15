@@ -1,0 +1,1 @@
+{% load i18n %}{% blocktrans %}Failed login attempt on {{ service_name }}{% endblocktrans %}
