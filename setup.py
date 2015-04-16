@@ -13,7 +13,7 @@ def read(*parts):
 
 setup(
     name='django-login-canary',
-    version='0.0.0',
+    version='0.1.0',
     description='django-login-canary is a reusable Django application to notify users upon successful and failed logins.',
     long_description=read('README.rst'),
     author='Markus Holtermann',
