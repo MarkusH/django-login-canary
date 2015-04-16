@@ -90,3 +90,9 @@ class LoginFailedTests(TestCase):
         self.assertEqual(len(mail.outbox), 0)
         self.client.login(username='user', password='wrong')
         self.assertEqual(len(mail.outbox), 0)
+
+    @override_settings(LOGIN_CANARY_NOTIFY_LOGIN_FAILED=True)
+    def test_login_failed_unknwon_user(self):
+        self.assertEqual(len(mail.outbox), 0)
+        self.client.login(username='unknown', password='wrong')
+        self.assertEqual(len(mail.outbox), 0)
