@@ -1,0 +1,4 @@
+[run]
+branch = True
+source = login_canary/
+omit = login_canary/__init__.py,login_canary/migrations/*
