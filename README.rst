@@ -2,6 +2,10 @@
 django-login-canary
 ===================
 
+.. image:: http://unmaintained.tech/badge.svg
+   :target: http://unmaintained.tech/
+   :alt: No Maintenance Intended 
+
 **django-login-canary** is a reusable Django application to notify users upon successful and failed logins.
 
 License
